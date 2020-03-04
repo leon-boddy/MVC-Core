@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: helvertica;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header, footer {
+    background-color: #232323;
+}
+
+/* ID'S START */
+#phone{
+    font-size: 1rem;
+    color: #fff;
+}
+#nav-wrapper, #footer-top-bar{
+    background-color: #2b2b2b;
+}
+#footer-top-bar{
+    height: 2rem;
+}
+#feature-promo img{
+    max-width: 100%;
+}
+#three-across .container {
+    display: flex;
+}
+
+/* CLASSES START */
+.width-1440{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.align-right {
+    float: right;
+}
+.flex{
+    display: flex;
+}
+.col-third{
+    width: 33.33%;
+}
+.col-third img{
+    width: 100%;
+}
+
+.nav-link{
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+}
+.footer-col{
+    flex-grow: 1;
+}
+.footer-item{
+    display: block;
+    color: #fff;
+}
