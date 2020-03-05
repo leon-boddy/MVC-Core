@@ -1,0 +1,10 @@
+.footer-container{
+    justify-content: center;
+}
+.footer-item:not(:last-child){
+    border-right: 1px solid
+}
+.footer-item{
+    list-style: none;
+    padding: 0.25rem 1rem;
+}

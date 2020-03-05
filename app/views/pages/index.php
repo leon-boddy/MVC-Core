@@ -10,8 +10,8 @@
     
 
     //PALCEHOLDER CONTENT
-    echo '<h1>' . $data['title'] . '</h1>
-    <p>This is my MCV framework, documentation soon come...</p>';
+    // echo '<h1>' . $data['title'] . '</h1>
+    // <p>This is my MCV framework, documentation soon come...</p>';
 
 
 

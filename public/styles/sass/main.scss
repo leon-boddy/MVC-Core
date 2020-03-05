@@ -1,3 +1,5 @@
+@import "./palette";
+
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +10,12 @@ nav{
     display: flex;
     justify-content: flex-end;
 }
-header, footer {
-    background-color: #232323;
+header {
+    background-color: $header-background;
+}
+
+footer {
+    background-color: $footer-background;
 }
 
 /* ID'S START */
@@ -19,9 +25,6 @@ header, footer {
 }
 #nav-wrapper, #footer-top-bar{
     background-color: #2b2b2b;
-}
-#footer-top-bar{
-    height: 2rem;
 }
 #feature-promo img{
     max-width: 100%;
@@ -54,11 +57,4 @@ header, footer {
     color: #fff;
     text-decoration: none;
     padding: 1rem 1.5rem;
-}
-.footer-col{
-    flex-grow: 1;
-}
-.footer-item{
-    display: block;
-    color: #fff;
 }
